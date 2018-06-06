@@ -1,0 +1,12 @@
+  438  clear
+  439  mkdir site
+  440  cd site
+  441  touch index.html
+  442  mkdir pages
+  443  touch pages/about.html
+  444  vi pages/about.html
+  445  mv pages/about.html .
+  446  ls pages
+  447  rm -rf pages
+  448  cd ..
+  449  rm -rf site
